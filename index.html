@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widthe, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Pomorodo Timer</title>
+</head>
+<body>
+<main>
+    <h1>Focus Timer</h1>
+    <p>A timer to help you relax or study</p>
+    <div class="timer-circle">
+
+        <svg class="progress-ring" viewBox="0 0 520 520">
+            <circle
+                class="progress-track"
+                cx="260"
+                cy="260"
+                r="250"
+            />
+            <circle
+                class="progress-ring-fill"
+                id="progress-ring"
+                cx="260"
+                cy="260"
+                r="250"
+            />
+        </svg>
+        <div class="timer-display" id="timer">25:00</div>
+    </div>
+    <div class="countdown-display">
+    </div>
+    <div class="timer-controls">
+        <button class="start-button" id="start-button">Start</button>
+        <button class="reset-button" id="reset-button">Reset</button>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
